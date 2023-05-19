@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: unset;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body {
+    background-color: #C4C4C4;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 52px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search_input {
+    display: block;
+    width: 500px;
+    height: 61px;
+    border-style: inset;
+    background-color: white;
+    border: 1px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px 2px;
+    font-size: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    line-height: 56.25px;
+
+}
+
+.search_wrapper {
+    margin-bottom: 20px;
+}
+
+.search_result {
+    display: block;
+    width: 500px;
+    height: 44px;
+    border-style: inset;
+    background-color: #E3E3E3;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2px 2px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35.16px;
+    text-align: left;    
+}
+
+.search_result:hover {
+    background-color: #65CDF9;
+}
+
+.repository {
+    position: relative;
+    display: block;
+    width: 472px;
+    height: 80px;
+    background-color: #E27BEB;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    line-height: 28.13px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding: 8px 16px;
+    border: 1px solid #000000;
+    white-space: pre;
+}
+
+.btn-delete {
+    width: 46px;
+    height: 42px;
+    position:absolute;
+    right: 34px;
+    top: 31px;
+    background-image: url('/img/del.png');
+}
